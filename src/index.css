@@ -6,16 +6,18 @@
   font-family: "Jost";
   color: #333;
 }
+
+/* NAVIGATION BAR */
 .navbar {
-  padding: 20px;
+  padding: 20px 20px 30px 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #81c3d7;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,11 +28,25 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
-}
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  color: #81c3d7;
 }
 
+/* FOOTER */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  height: 10vh;
+  padding-bottom: 25px;
+
+}
+
+/* INTRODUCTION */
+.introduction {
+  height: 60vh;
+  padding: 50px;
+  background: #cbe6ef;
+  color: #010b43;
+  }
+
+  
