@@ -6,6 +6,7 @@ const NavBar = () => {
     return (  
         <nav className="navbar sticky">
             <img src={logo} width="50px" alt="Logo" />
+            <h1>EmpowerED</h1>
             <div className="links">
                <Link to="/">Home</Link>
                <Link to="/newsletters">Newsletters</Link>

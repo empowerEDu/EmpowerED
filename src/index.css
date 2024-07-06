@@ -17,7 +17,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #81c3d7;
+  padding: 1vw 0vw 0vw 1vw;  
 }
 .navbar .links {
   margin-left: auto;
@@ -32,13 +32,26 @@
 }
 
 /* FOOTER */
-footer{
+.list {
+  background-color:#cbe6ef;
+  text-align: center;
+  display: block;
+  padding: 3vh
+}
+.divided {
   display: flex;
-  justify-content: center;
-  align-items: last baseline;
-  height: 10vh;
-  padding-bottom: 25px;
+  align-items: center;
+}
+.divider {
+  flex-grow: 1;
+  border-bottom: 2px solid black;
+  margin: 5px 50px 5px 50px
+}
 
+.footer_links li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
 }
 
 /* INTRODUCTION */
