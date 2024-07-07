@@ -4,8 +4,6 @@ import AoPSLogo from "./images/Aops.png"
 import OntarioFluid from "./images/ontariofluidpartner.png"
 import ImageSlideshow from './ImageSlideshow';
 
-
-
 const Home = () => {
     return (  
         <div className="homepage">

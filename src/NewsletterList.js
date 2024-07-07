@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 
+
 const NewsletterList = ({articles, title}) => {
 
     return ( 

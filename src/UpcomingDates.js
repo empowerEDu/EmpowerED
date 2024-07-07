@@ -10,10 +10,10 @@ const UpcomingDates = () => {
   <div className="events-body">
     <ul>
        <li>
-         <a href="">
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2ErMkHG9VvS1Zj_6NSLE5o0omSxmPmt9xk2uF8pGT1s7Cdw/viewform"> 
         <div className="event-left-content">
           <div className="title-event">
-             <h2>Director Applications Due</h2>
+             <h2>Executive Applications Due</h2>
             <div className="event-date">July 8th 2024</div>
           </div>
         </div>
@@ -26,7 +26,7 @@ const UpcomingDates = () => {
          
           
       <li>
-         <a href="">
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8kiuxJlYruKDK_t1mcmrn3SSq9c8IEWB2jZYYJJY---Rgaw/viewform">
         <div className="event-left-content">
           <div className="title-event">
              <h2>Summer Camp Registration Ends</h2>
@@ -41,7 +41,7 @@ const UpcomingDates = () => {
       </li>
       
       <li>
-         <a href="">
+         <a>
         <div className="event-left-content">
           <div className="title-event">
              <h2>Summer Camp</h2>

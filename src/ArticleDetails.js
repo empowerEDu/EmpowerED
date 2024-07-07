@@ -1,16 +1,14 @@
-import {useParams, useHistory} from "react-router-dom";
-import useFetch from "./useFetch";
+import { useParams, useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-
 const ArticleDetails = () => {
-
-    const [articles, setArticles] = useState(null);
+  const { id } = useParams();
+  const history = useHistory();
+  const [article, setArticle] = useState(null);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    console.log("Fetching data...");
-    fetch('http://localhost:8000/articles')
+    fetch(`http://localhost:8000/articles/${id}`)
       .then(res => {
         if (!res.ok) {
           throw Error('Could not fetch the data for that resource');
@@ -18,27 +16,33 @@ const ArticleDetails = () => {
         return res.json();
       })
       .then(data => {
-        setArticles(data);
-        console.log("Data fetched successfully");
+        setArticle(data);
       })
       .catch(err => {
         setError(err.message);
-        console.error("Error fetching data:", err);
       });
-  }, []);
+  }, [id]);
 
-    return ( 
-        <div className="blog-details">
-            {error && <div>could not fetch data for that resource</div>}
-            {articles && (
-                <article>
-                    <h2>{articles.title}</h2>
-                    <p>published on {articles.publishDate}</p>
-                    <p>{articles.body}</p>
-                </article>
-            )}
-        </div>
-    );
+  const handleClick = () => {
+    fetch(`http://localhost:8000/articles/${id}`, {
+      method: 'DELETE'
+    }).then(() => {
+      history.push('/');
+    });
+  };
+
+  return (
+    <div className="article-details">
+      {error && <div>{error}</div>}
+      {article && (
+        <article>
+          <h2>{article.title}</h2>
+          <p>Published on by {article.publishDate}</p>
+          <div>{article.body}</div>
+        </article>
+      )}
+    </div>
+  );
 }
- 
+
 export default ArticleDetails;

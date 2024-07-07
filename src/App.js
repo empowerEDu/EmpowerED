@@ -6,8 +6,7 @@ import Home from './Home';
 import NewsletterSignUp from "./NewsletterSignUp";
 import Newsletter from './Newsletter';
 import Contact from './Contact';
-import UpcomingDates from './UpcomingDates';
-import ImageSlideshow from './ImageSlideshow';
+import ArticleDetails from './ArticleDetails';
 
 
 function App() {
@@ -34,6 +33,9 @@ function App() {
            <Route path="/contact">
             <Contact/>
            </Route>
+           <Route path="/articles/:id">
+            <ArticleDetails/>
+          </Route>
            <Route path="*">
            </Route>
          </Switch>

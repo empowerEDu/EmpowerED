@@ -91,7 +91,8 @@ button:hover {
 
 /* INTRODUCTION */
 .introduction {
-  height: 60vh;
+  min-height: 60vh;
+  height: auto;
   padding: 50px;
   background: #cbe6ef;
   color: #010b43;
@@ -298,8 +299,6 @@ transition: all 0.3s ease;
 }
 
 
-
-
 /* FOR RESPONSIVE ONLY  */
 @media only screen and (max-width:480px) {
   .event-calendar {
@@ -346,3 +345,28 @@ transition: all 0.3s ease;
   height: 300px;
 }
 
+/*CONTACT*/
+.contact-links a{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  margin: 1vh;
+  color: #010b43;
+  font-size: large;
+  height: 100%;
+
+}
+.contact-links a:hover{
+  color: #81c3d7;
+}
+
+.contact{
+  padding: 10vh;
+  background-color: #cbe6ef;
+}
+
+/*ARTICLES*/
+article {
+  padding: 5vh 20vh 5vh 20vh;
+  
+}

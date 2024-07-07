@@ -1,10 +1,8 @@
 {
-  "registrants": [
-    
-  ],
+  "registrants": [],
   "articles": [
     {
-      "title": "Middle School Summer Camp",
+      "title": "Middle School Summer Camps",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "publishDate": "July 4th 2024",
       "id": "3"
@@ -16,10 +14,10 @@
       "id": "2"
     },
     {
-        "title": "EmpowerHerIn Math Competition",
-        "body": "Hey there York Region mathletes! Are you seeking a challenging yet rewarding experience to cure your end-of-the-school-year boredom? Well, look no further than the EmpowerHerIn math competition. We at EmpowerED have come together with the CountHerIn team to bring you this unique opportunity. Participants will have one hour to answer math questions from various fields, with the top three scorers winning Amazon gift cards. Once the contest concludes, we will have several female guest speakers currently in high school who are very passionate about the STEM field. They will offer insight to participants on how they can become active in the STEM community as they transition into high school. The event takes place this Saturday, June 8 from 10:00 a.m. to 12:00 p.m. EDT and is available for grade six, seven and eight students. Good Luck!",
-        "publishDate": "June 1st 2024",
-        "id": "1"
+      "title": "EmpowerHerIn Math Competition",
+      "body": "Hey there York Region mathletes! Are you seeking a challenging yet rewarding experience to cure your end-of-the-school-year boredom? Well, look no further than the EmpowerHerIn math competition. We at EmpowerED have come together with the CountHerIn team to bring you this unique opportunity. Participants will have one hour to answer math questions from various fields, with the top three scorers winning Amazon gift cards. Once the contest concludes, we will have several female guest speakers currently in high school who are very passionate about the STEM field. They will offer insight to participants on how they can become active in the STEM community as they transition into high school. The event takes place this Saturday, June 8 from 10:00 a.m. to 12:00 p.m. EDT and is available for grade six, seven and eight students. Good Luck!",
+      "publishDate": "June 1st 2024",
+      "id": "1"
     }
   ]
 }
