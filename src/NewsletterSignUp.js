@@ -1,24 +1,5 @@
-import { useState } from "react";
 
 const NewsletterSignUp = () => {
-
-    const[name, setName] = useState('');
-    const[email, setEmail] = useState('');
-    const[identity, setIdentity] = useState("--");
-  
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const blog = {name, email, identity};
-
-        // adds blog to the json server
-        fetch('http://localhost:8000/registrants', {
-            method: 'POST',
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify(blog)
-        }).then(() => 
-            console.log("new registrant")
-        )}
 
     return ( 
         
@@ -28,29 +9,19 @@ const NewsletterSignUp = () => {
             <h1>Light a Connection with Us!</h1>
             <h3>Sign up for our newletter to stay up-to-date with our initiatives and local opportunities in STEM.</h3>
         </div>
-        <form onSubmit={handleSubmit}>
+        <form action="https://formspree.io/f/mrgnlner" method="POST">
             <ul className="sign-up">
                 <li>
-                    <label>Name: </label>
-                    <input type="name" required value = {name} onChange={(e) => setName(e.target.value)}/>
+                <label class="form-input">Name <input type="name" name="name" required></input></label>
                 </li>
                 <li>
-                    <label>Email: </label>
-                    <input type="email" required value = {email} onChange={(e) => setEmail(e.target.value)}></input>
+                    <label class="form-input">Email <input type="email" name="email" required></input></label>
                 </li>
                 <li>
-                    <label>I am a: </label>
-                    <select required value = {identity} onChange={(e) => setIdentity(e.target.value)}>
-                        <option value="middleSchool">Middle School Student</option>
-                        <option value="highSchool">High School Student</option>
-                        <option value="parent">Parent</option>
-                        <option value="other">Other</option>
-                    </select>
+                    <button type="submit">Register</button>
                 </li>
             </ul>
         
-        <button>Register</button>
-
     </form>
     </div>
     </div>
