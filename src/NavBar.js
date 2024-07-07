@@ -4,7 +4,7 @@ import logo from './logo.png'; // Tell webpack this JS file uses this image
 
 const NavBar = () => {
     return (  
-        <nav className="navbar sticky">
+        <nav className="navbar">
             <img src={logo} width="50px" alt="Logo" />
             <h1>EmpowerED</h1>
             <div className="links">
@@ -15,6 +15,7 @@ const NavBar = () => {
             </div>
         </nav>
     );
+
 }
  
 export default NavBar;

@@ -27,7 +27,7 @@ const Newsletter = () => {
   return (
     <div className="articles">
       {error && <div>{error}</div>}
-      {articles ? <NewsletterList articles={articles} /> : <div>Loading...</div>}
+      {articles ? <NewsletterList articles={articles} title="Newsletters"/> : <div>Loading...</div>}
     </div>
   );
 }

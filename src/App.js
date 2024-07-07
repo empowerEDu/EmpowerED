@@ -6,6 +6,8 @@ import Home from './Home';
 import NewsletterSignUp from "./NewsletterSignUp";
 import Newsletter from './Newsletter';
 import Contact from './Contact';
+import UpcomingDates from './UpcomingDates';
+import ImageSlideshow from './ImageSlideshow';
 
 
 function App() {
