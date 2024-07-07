@@ -32,7 +32,7 @@ const ArticleDetails = () => {
   };
 
   return (
-    <div className="article-details">
+    <div className="article-details container">
       {error && <div>{error}</div>}
       {article && (
         <article>

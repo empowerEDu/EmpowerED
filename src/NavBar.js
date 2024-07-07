@@ -1,20 +1,30 @@
-import {Link} from 'react-router-dom';
-import logo from './logo.png'; // Tell webpack this JS file uses this image
-
+// src/NavBar.js
+import { Link } from 'react-router-dom';
+import logo from './logo.png'; // Make sure webpack is configured to handle image imports
 
 const NavBar = () => {
     return (  
-        <nav className="navbar">
-            <img src={logo} width="50px" alt="Logo" />
-            <h1>EmpowerED</h1>
-            <div className="links">
-               <Link to="/">Home</Link>
-               <Link to="/newsletters">Newsletters</Link>
-               <Link to="/contact">Contact</Link>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container">
+                <Link to="/" className="navbar-brand d-flex align-items-center">
+                    <img src={logo} width="50" height="50" className="d-inline-block align-top" alt="Logo" />
+                    <span className="ms-2">EmpowerED</span>
+                </Link>
+
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <div className="navbar-nav ms-auto">
+                        <Link to="/" className="nav-link">Home</Link>
+                        <Link to="/newsletters" className="nav-link">Newsletters</Link>
+                        <Link to="/contact" className="nav-link">Contact</Link>
+                    </div>
+                </div>
             </div>
         </nav>
     );
-
 }
  
 export default NavBar;

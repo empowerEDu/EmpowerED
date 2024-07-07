@@ -23,7 +23,7 @@ const Footer = () => {
       <a href="/"> <img loading="lazy" src={logo} height="50px"></img> </a>
       <p>&copy; Copyright 2024 EmpowerED</p>
     </div>
-    <div className="other footer_links list">
+    <div className="list footer_links">
       <ul>
         <li><a href="#">Legal Stuff</a></li>
         <li><a href="#">Privacy Policy</a></li>

@@ -1,32 +1,37 @@
+// src/Home.js
 import UpcomingDates from "./UpcomingDates";
-import LumieExcited from "./images/LumieExcited.png"
-import AoPSLogo from "./images/Aops.png"
-import OntarioFluid from "./images/ontariofluidpartner.png"
+import LumieExcited from "./images/LumieExcited.png";
+import AoPSLogo from "./images/Aops.png";
+import OntarioFluid from "./images/ontariofluidpartner.png";
 import ImageSlideshow from './ImageSlideshow';
 
 const Home = () => {
-    return (  
-        <div className="homepage">
-            <div className="introduction">
-                <div className="left">
-                    <h1>We are EmpowerED</h1>
-                    <h3>We are a youth-led non-profit organization based in York Region, that aims to excite students of all ages about computer science and STEM!</h3>
-                    <img src={LumieExcited} height={"200"}></img>
-                </div>
-                <div className="right">
-                    <UpcomingDates/>
-                </div>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: 'auto' }}>
-              <ImageSlideshow/>
-            </div>
-            <div className="sponsors">
-                <h2>Our Sponsors:</h2>
-                <img src={AoPSLogo} height={"70"}></img>
-                <img src={OntarioFluid} height={"70"}></img>
-            </div>
+  return (  
+    <div className="homepage container py-4">
+      <div className="introduction row align-items-center mb-5">
+        <div className="left col-12 col-md-6 text-center text-md-left mb-4 mb-md-0">
+          <h1 className="mb-3">We are EmpowerED</h1>
+          <h3 className="mb-3">We are a youth-led non-profit organization based in York Region, that aims to excite students of all ages about computer science and STEM!</h3>
+          <img src={LumieExcited} alt="Lumie Excited" className="img-fluid" style={{ maxHeight: '200px' }} />
         </div>
-    );
+        <div className="right col-12 col-md-6 text-center text-md-left">
+          <UpcomingDates />
+        </div>
+      </div>
+      <div className="row mb-5 justify-content-center">
+        <div className="col-12">
+          <ImageSlideshow />
+        </div>
+      </div>
+      <div className="sponsors text-center py-4">
+        <h2 className="mb-4">Our Sponsors</h2>
+        <div className="d-flex justify-content-center flex-wrap">
+          <img src={AoPSLogo} alt="AoPS Logo" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
+          <img src={OntarioFluid} alt="Ontario Fluid" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
+        </div>
+      </div>
+    </div>
+  );
 }
- 
+
 export default Home;
