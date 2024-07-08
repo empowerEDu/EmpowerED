@@ -1,7 +1,7 @@
 {
   "name": "empowered",
   "version": "1.1.0",
-  "homepage": "https://empoweredu.github.io/new-site",
+  "homepage": "https://empoweredu.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
