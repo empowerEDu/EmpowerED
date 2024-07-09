@@ -7,7 +7,7 @@ const Newsletter = () => {
 
   useEffect(() => {
     console.log("Fetching data...");
-    fetch('https://json-vercel-flk6b8j94-empowereds-projects.vercel.app/articles')
+    fetch('https://json-vercel-app.vercel.app/articles')
       .then(res => {
         if (!res.ok) {
           throw Error('Could not fetch the data for that resource');
