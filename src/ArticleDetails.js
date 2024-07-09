@@ -8,7 +8,7 @@ const ArticleDetails = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/articles/${id}`)
+    fetch(`https://json-vercel-app.vercel.app/articles/${id}`)
       .then(res => {
         if (!res.ok) {
           throw Error('Could not fetch the data for that resource');
@@ -23,13 +23,6 @@ const ArticleDetails = () => {
       });
   }, [id]);
 
-  const handleClick = () => {
-    fetch(`http://localhost:8000/articles/${id}`, {
-      method: 'DELETE'
-    }).then(() => {
-      history.push('/');
-    });
-  };
 
   return (
     <div className="article-details container">
