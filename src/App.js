@@ -15,7 +15,9 @@ function App() {
      // main app injected into html file (actually coded in JSX, translated into HTML via babel), rendered by index.js
      <Router>
      <div className="App">
-       <NavBar/>
+      <div className="white">
+         <NavBar/>
+      </div>
        <div className="content">
          <Switch>
            <Route exact path="/">
