@@ -8,23 +8,7 @@ const UpcomingDates = () => {
     </div>
   </div>
   <div className="events-body">
-    <ul>
-       <li>
-         <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2ErMkHG9VvS1Zj_6NSLE5o0omSxmPmt9xk2uF8pGT1s7Cdw/viewform"> 
-        <div className="event-left-content">
-          <div className="title-event">
-             <h2>Executive Applications Due</h2>
-            <div className="event-date">July 8th 2024</div>
-          </div>
-        </div>
-        <div className="event-icon"> 
-          <div className="month">Jul </div> 
-          <div className="date">08</div> 
-        </div>
-         </a>
-      </li>
-         
-          
+    <ul>   
       <li>
          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8kiuxJlYruKDK_t1mcmrn3SSq9c8IEWB2jZYYJJY---Rgaw/viewform">
         <div className="event-left-content">
@@ -34,7 +18,7 @@ const UpcomingDates = () => {
           </div>
         </div>
         <div className="event-icon"> 
-          <div className="month">Jul </div> 
+          <div className="month">Jul</div> 
           <div className="date">14</div> 
         </div>
          </a>
@@ -44,7 +28,7 @@ const UpcomingDates = () => {
          <a>
         <div className="event-left-content">
           <div className="title-event">
-             <h2>Summer Camp</h2>
+             <h2>Web Development Summer Camp</h2>
             <div className="event-date"> July 15th 2024 - July 19th 2024</div>
           </div>
         </div>
