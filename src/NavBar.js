@@ -4,7 +4,7 @@ import logo from './logo.png'; // Make sure webpack is configured to handle imag
 
 const NavBar = () => {
     return (  
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg">
             <div className="container">
                 <Link to="/" className="navbar-brand d-flex align-items-center">
                     <img src={logo} width="50" height="50" className="d-inline-block align-top" alt="Logo" />
