@@ -2,6 +2,7 @@
 import UpcomingDates from "./UpcomingDates";
 import LumieExcited from "./images/LumieExcited.png";
 import AoPSLogo from "./images/Aops.png";
+import MPLLogo from "./images/MPL.png";
 import OntarioFluid from "./images/ontariofluidpartner.png";
 import ImageSlideshow from './ImageSlideshow';
 
@@ -24,10 +25,11 @@ const Home = () => {
         </div>
       </div>
       <div className="sponsors text-center py-4">
-        <h2 className="mb-4">Our Sponsors</h2>
+        <h2 className="mb-4">Sponsors and Partners</h2>
         <div className="d-flex justify-content-center flex-wrap">
           <img src={AoPSLogo} alt="AoPS Logo" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
           <img src={OntarioFluid} alt="Ontario Fluid" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
+          <img src={MPLLogo} alt="Markham Public Library" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
         </div>
       </div>
     </div>
