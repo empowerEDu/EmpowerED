@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.sponsor-us .section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #cbe6ef; 
+  border-radius: 10px;
+  margin-bottom: 60px; 
+}
+
+.text-left, .text-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-right, .image-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-left {
+  order: -1; 
+}
+
+.text-right {
+  order: 1;
+}
+
+
+.image-lumie {
+  max-width: 20%;
+  margin-right: 20%; 
+  height: auto;
+}
+
+.image-mpl {
+  max-width: 30%;
+  height: auto;
+}
+
+.image-aops {
+  max-width: 40%;
+  height: auto;
+}
+
+.image-ontario-fluid {
+  max-width: 35%;
+  height: auto;
+}
+
+.image-sample-form {
+  max-width: 30%;
+  height: auto;
+}
+
+.image-workshop {
+  max-width: 20%;
+  height: auto;
+}
