@@ -16,8 +16,14 @@ function App() {
         <NavBar />
         <div className="content">
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/newsletters" component={Newsletter} />
+          <Route exact path="/">
+           <Home></Home>
+           <NewsletterSignUp/>
+           </Route>
+           <Route path="/newsletters">
+            <Newsletter/>
+            <NewsletterSignUp/>
+           </Route>
             <Route path="/contact" component={Contact} />
             <Route path="/sponsor-us" component={SponsorUs} />
             <Route path="/articles/:id" component={ArticleDetails} />
