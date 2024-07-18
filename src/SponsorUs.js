@@ -1,24 +1,25 @@
 //new file ! ! ! ! !
 import React from 'react';
 //images
-import LumieExcited from "./images/LumieExcited.png";
 import MPLLogo from "./images/MPL.png";
 import AoPSLogo from "./images/Aops.png";
 import OntarioFluid from "./images/ontariofluidpartner.png";
-import SampleForm from "./images/sample-form2.jpg";
 import Workshop1 from "./images/workshop1.jpg"; 
+import Workshop2 from "./images/workshop2.jpg";
+
 
 const SponsorUs = () => {
     //i didnt know what to put for the text so i just put a bunch of dashes
   return (
     <div className="">
       <div className="section row my-5">
-        <div className="text-left col-md-6">
+        <div className="text-left col-md-6 sponsorus-text">
           <h1>Why Sponsor Us?</h1>
           <p>EmpowerED envisions a future where every student, regardless of their background, has access to high-quality STEM education and opportunities. Our long-term goals include expanding our reach to more regions, developing advanced STEM curriculum, and creating a network of mentors and industry professionals to guide our students. By partnering with you, we can accelerate this vision and create lasting change in the community.</p>
         </div>
         <div className="col-md-6">
           <img src={Workshop1} alt="Workshop 1" className="image-workshop img-fluid" />
+          <img src={Workshop2} alt="Workshop 2" className="image-workshop2 img-fluid" />
         </div>
       </div>
       <div className="row my-5 section white">

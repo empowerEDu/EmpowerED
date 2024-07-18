@@ -44,7 +44,8 @@
   padding: 40px 20px;
   background-color: #cbe6ef; 
   border-radius: 10px;
-  margin-bottom: 60px; 
+  margin-bottom: 40px; 
+  height: auto;
 }
 
 .text-left, .text-right {
@@ -65,36 +66,49 @@
 
 .text-right {
   order: 1;
+  padding-right: 30px; 
+  position: relative;
+  right: 2%;
 }
 
-
-.image-lumie {
-  max-width: 20%;
-  margin-right: 20%; 
-  height: auto;
-}
-
+/* image styles */
 .image-mpl {
-  max-width: 30%;
-  height: auto;
+  max-width: 20%;
+  max-height: 30%;
 }
 
 .image-aops {
-  max-width: 40%;
-  height: auto;
+  max-width: 10%;
+  max-height: 30%;
 }
 
 .image-ontario-fluid {
-  max-width: 35%;
+  width: 30%;
   height: auto;
 }
-
-.image-sample-form {
-  max-width: 30%;
-  height: auto;
-}
-
+/* couldnt find the css for this so i flagged as important */
 .image-workshop {
-  max-width: 20%;
-  height: auto;
+  max-width: 30% !important;
+  height: 30%;
+  position: relative;
+  right: 5%;
+  
 }
+/* new image*/
+.image-workshop2 {
+  max-width: 30% !important;
+  height: 30%;
+  position: relative;
+  left: 5%;
+  
+}
+
+/* only applies for desktop and doesnt distort if on mobile*/
+@media (min-width: 768px) {
+.sponsorus-text {
+  position: relative;
+  left: 5%;
+}
+}
+
+
