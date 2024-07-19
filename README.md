@@ -2,4 +2,11 @@
 
 This project was built using the React.js framework.
 
-Coded by Vrinda Joshi, Ahmed Draz, and Taniya Jeevanayagam
+# to run
+download node.js
+
+$ npm install
+
+$ npm run start
+
+happy coding!
