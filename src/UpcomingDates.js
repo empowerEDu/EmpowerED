@@ -14,17 +14,30 @@ const UpcomingDates = () => {
          <a>
         <div className="event-left-content">
           <div className="title-event">
-             <h2>Web Development Summer Camp</h2>
-            <div className="event-date"> July 15th 2024 - July 19th 2024</div>
+             <h2>MPL Coding Workshop</h2>
+            <div className="event-date"> October 26, 2024</div>
           </div>
         </div>
         <div className="event-icon"> 
-          <div className="month">Jul </div> 
-          <div className="date">15</div> 
+          <div className="month">Oct </div> 
+          <div className="date">26</div> 
         </div>
          </a>
       </li>
-          
+      <li>
+         <a>
+        <div className="event-left-content">
+          <div className="title-event">
+             <h2>AI/ML Internship</h2>
+            <div className="event-date"> Every Sunday in August 2024</div>
+          </div>
+        </div>
+        <div className="event-icon"> 
+          <div className="month">Aug </div> 
+          <div className="date">4</div> 
+        </div>
+         </a>
+      </li>
           
     </ul>
   </div>
