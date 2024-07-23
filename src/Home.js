@@ -1,4 +1,3 @@
-// src/Home.js
 import UpcomingDates from "./UpcomingDates";
 import LumieExcited from "./images/LumieExcited.png";
 import AoPSLogo from "./images/Aops.png";
@@ -12,7 +11,7 @@ const Home = () => {
       <div className="introduction row align-items-center mb-5">
         <div className="left col-12 col-md-6 text-center text-md-left mb-4 mb-md-0">
           <h1 className="mb-3">We are EmpowerED</h1>
-          <h3 className="mb-3">We are a youth-led non-profit organization based in York Region, that aims to excite students of all ages about computer science and STEM!</h3>
+          <h3 className="mb-3">We are a youth-led non-for-profit organization based in York Region, that aims to excite students of all ages about computer science and STEM!</h3>
           <img src={LumieExcited} alt="Lumie Excited" className="img-fluid" style={{ maxHeight: '200px' }} />
         </div>
         <div className="right col-12 col-md-6 text-center text-md-left">

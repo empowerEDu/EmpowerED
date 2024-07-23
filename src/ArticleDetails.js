@@ -30,7 +30,7 @@ const ArticleDetails = () => {
       {article && (
         <article>
           <h2>{article.title}</h2>
-          <p>Published on by {article.publishDate}</p>
+          <p>Published on {article.publishDate}</p>
           <div>{article.body}</div>
         </article>
       )}

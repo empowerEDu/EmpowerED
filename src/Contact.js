@@ -1,4 +1,3 @@
-// src/Contact.js
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLink } from '@fortawesome/free-solid-svg-icons';
 import { faSquareInstagram, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';

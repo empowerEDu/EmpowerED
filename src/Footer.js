@@ -22,14 +22,7 @@ const Footer = () => {
         <Link to="/"> <img loading="lazy" src={logo} alt="EmpowerED Logo" height="50px"></img> </Link>
         <p>&copy; Copyright 2024 EmpowerED</p>
       </div>
-      <div className="list footer_links">
-        <ul>
-          <li><Link to="#">Legal Stuff</Link></li>
-          <li><Link to="#">Privacy Policy</Link></li>
-          <li><Link to="#">Security</Link></li>
-          <li><Link to="#">Website Accessibility</Link></li>
-        </ul>
-      </div>
+  
     </footer>
   );
 }
