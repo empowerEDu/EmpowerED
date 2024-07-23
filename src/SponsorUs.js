@@ -52,8 +52,8 @@ const SponsorUs = () => {
       <div className="section row my-5">
         <div className="text-left col-md-12">
           <h2>Sponsorship Package</h2>
-          <p>Check out the Sponsorship Package below to discover more about how you can make a difference.</p>
-          <a href="https://docs.google.com/document/d/1JpGJ0PhR7Rq0mC90d3CQDaPaXHtW0VZiVlrx2BiUm0A/view">Sponsorship Package</a>
+          <p className="spns-package">Check out the Sponsorship Package below to discover more about how you can make a difference.</p>
+          <a className="spnsr-button" href="https://docs.google.com/document/d/1JpGJ0PhR7Rq0mC90d3CQDaPaXHtW0VZiVlrx2BiUm0A/view">Sponsorship Package</a>
         </div>
       </div>
     </div>

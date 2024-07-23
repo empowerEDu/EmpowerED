@@ -407,3 +407,23 @@ article {
   padding: 5vh 0vh 5vh 0vh;
   
 }
+
+/*SPONSOR US*/
+
+.spnsr-button {
+  margin: 70px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #010b43;
+  border: none;
+  border-radius: 12px;
+}
+
+.spnsr-button:hover {
+  background-color: #61dafb;
+}
+
+.spns-package {
+  padding-bottom: 30px;
+}
