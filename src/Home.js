@@ -4,6 +4,7 @@ import AoPSLogo from "./images/Aops.png";
 import MPLLogo from "./images/MPL.png";
 import OntarioFluid from "./images/ontariofluidpartner.png";
 import ImageSlideshow from './ImageSlideshow';
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (  
@@ -31,6 +32,9 @@ const Home = () => {
           <img src={MPLLogo} alt="Markham Public Library" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
         </div>
       </div>
+      <div className="text-center text-md-left">
+          <Testimonials />
+        </div>
     </div>
   );
 }
