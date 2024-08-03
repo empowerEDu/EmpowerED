@@ -427,3 +427,23 @@ article {
 .spns-package {
   padding-bottom: 30px;
 }
+
+/* TESTIMONIALS */
+.horizontal-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.horizontal-list-item{
+  margin-right: 30px;
+}
+
+.horizontal-list-text{
+  font-weight:400;
+}
+
+.testimonials{
+  border-radius: 25px;
+  border: 2px solid #010b43;
+}

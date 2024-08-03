@@ -1,7 +1,7 @@
 
 const Testimonials = () => {
     return(
-<div>
+<div className='bg-white p-5 testimonials'>
     <h2 className="mb-5">Here's what people had to say about our middle school camp:</h2>
   <ul className="horizontal-list">   
 

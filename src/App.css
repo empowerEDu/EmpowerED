@@ -71,20 +71,6 @@
   right: 2%;
 }
 
-.horizontal-list {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.horizontal-list-item{
-  margin-right: 30px;
-}
-
-.horizontal-list-text{
-  font-weight:400;
-}
-
 /* image styles */
 .image-mpl {
   max-width: 20%;
