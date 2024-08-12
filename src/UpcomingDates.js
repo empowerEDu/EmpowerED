@@ -26,7 +26,7 @@ const UpcomingDates = () => {
     </li>
     
     <li>
-       <a>
+       <a href="https://forms.gle/Meqhc7x27brrszyr7">
       <div className="event-left-content">
         <div className="title-event">
            <h2>MPL Coding Workshop</h2>
