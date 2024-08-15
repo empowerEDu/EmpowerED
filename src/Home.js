@@ -7,6 +7,7 @@ import ImageSlideshow from './ImageSlideshow';
 import Testimonials from "./Testimonials";
 import MacCodingLogo from './images/macstartcoding.png';
 
+
 const Home = () => {
   return (  
     <div className="homepage container py-4">
