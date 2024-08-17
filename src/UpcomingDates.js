@@ -39,7 +39,7 @@ const UpcomingDates = () => {
       </div>
        </a>
     </li>
-    
+
     <li>
        <a>
       <div className="event-left-content">

@@ -5,6 +5,8 @@ import MPLLogo from "./images/MPL.png";
 import OntarioFluid from "./images/ontariofluidpartner.png";
 import ImageSlideshow from './ImageSlideshow';
 import Testimonials from "./Testimonials";
+import MacCodingLogo from './images/macstartcoding.png';
+
 
 const Home = () => {
   return (  
@@ -30,6 +32,7 @@ const Home = () => {
           <img src={AoPSLogo} alt="AoPS Logo" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
           <img src={OntarioFluid} alt="Ontario Fluid" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
           <img src={MPLLogo} alt="Markham Public Library" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
+          <img src={MacCodingLogo} alt="McMaster Start Coding" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
         </div>
       </div>
       <div className="text-center text-md-left">
