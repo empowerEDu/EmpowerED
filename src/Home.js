@@ -6,7 +6,7 @@ import OntarioFluid from "./images/ontariofluidpartner.png";
 import ImageSlideshow from './ImageSlideshow';
 import Testimonials from "./Testimonials";
 import MacCodingLogo from './images/macstartcoding.png';
-
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (  
@@ -34,6 +34,9 @@ const Home = () => {
           <img src={MPLLogo} alt="Markham Public Library" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
           <img src={MacCodingLogo} alt="McMaster Start Coding" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
         </div>
+        <Link to="/support-us" className="nav-link">
+          <button type="submit" className="btn btn-primary">Support Us!</button>
+        </Link>
       </div>
       <div className="text-center text-md-left">
           <Testimonials />

@@ -7,7 +7,7 @@ import NewsletterSignUp from "./NewsletterSignUp";
 import Newsletter from './Newsletter';
 import Contact from './Contact';
 import ArticleDetails from './ArticleDetails';
-import SponsorUs from './SponsorUs';
+import SupportUs from './SupportUs';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <NewsletterSignUp/>
            </Route>
             <Route path="/contact" component={Contact} />
-            <Route path="/sponsor-us" component={SponsorUs} />
+            <Route path="/support-us" component={SupportUs} />
             <Route path="/articles/:id" component={ArticleDetails} />
             <Route path="*" component={Home} />
           </Switch>

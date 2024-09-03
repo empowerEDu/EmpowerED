@@ -8,13 +8,13 @@ import Workshop1 from "./images/workshop1.jpg";
 import Workshop2 from "./images/workshop2.jpg";
 import MacCodingLogo from './images/macstartcoding.png';
 
-const SponsorUs = () => {
+const SupportUs = () => {
     //i didnt know what to put for the text so i just put a bunch of dashes
   return (
     <div className="">
       <div className="section row my-5">
         <div className="text-left col-md-6 sponsorus-text">
-          <h1>Why Sponsor Us?</h1>
+          <h1>Why Support Us?</h1>
           <p>EmpowerED envisions a future where every student, regardless of their background, has access to high-quality STEM education and opportunities. Our long-term goals include expanding our reach to more regions, developing advanced STEM curriculum, and creating a network of mentors and industry professionals to guide our students. By partnering with you, we can accelerate this vision and create lasting change in the community.</p>
         </div>
         <div className="col-md-6">
@@ -61,4 +61,4 @@ const SponsorUs = () => {
   );
 }
 
-export default SponsorUs;
+export default SupportUs;
