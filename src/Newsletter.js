@@ -10,7 +10,7 @@ const Newsletter = () => {
     fetch('https://json-vercel-app.vercel.app/articles')
       .then(res => {
         if (!res.ok) {
-          throw Error('Could not fetch the data for that resource');
+          throw Error('Error.');
         }
         return res.json();
       })
