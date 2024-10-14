@@ -23,10 +23,10 @@ const SupportUs = () => {
         </div>
       </div>
       <div className="row my-5 section white">
-        <div className="col-md-6">
-          <img src={MPLLogo} alt="Markham Public Library" height="100px" className="image-mpl img-fluid mb-3" />
-          <img src={AoPSLogo} alt="AoPS Logo" height="100px" className="image-aops img-fluid mb-3" />
-          <img src={OntarioFluid} alt="Ontario Fluid" height="100px" className="image-ontario-fluid img-fluid mb-3" />
+        <div className="col-md-6 justify-center">
+          <img src={MPLLogo} alt="Markham Public Library" height="100px" className="image-mpl img-fluid mb-3" /><br></br>
+          <img src={AoPSLogo} alt="AoPS Logo" height="100px" className="image-aops img-fluid mb-3" /><br></br>
+          <img src={OntarioFluid} alt="Ontario Fluid" height="100px" className="image-ontario-fluid img-fluid mb-3" /><br></br>
           <img src={MacCodingLogo} alt="McMaster Start Coding" height="100px" className="img-fluid mb-3" />
         </div>
         <div className="text-right col-md-6 white">
@@ -47,6 +47,15 @@ const SupportUs = () => {
 <li>Children explored robotics through engaging activities like completing an obstacle course with Sphero Indis and a dance challenge with Ozobots</li>
 <li>75+ enthusiastic participants, demonstrating the high level of interest and engagement in our hands-on learning experiences.</li>
 <li>The workshop was both fun and informative, sparking curiosity and excitement about robotics and engineering.</li>
+          </ul>
+          <br></br>
+          <h5>EmpowerED Web Development Summer Camp - For Middle Schoolers</h5>
+          <ul>
+            <li>An online week-long summer camp for Grades 6-8, introducing the rudiments of HTML and CSS.</li>
+<li>20+ registrants from all across the Greater Toronto Area (GTA), showcasing the broad appeal and impact of our programs.</li>
+<li>Led to a 150% increase in newsletter registrants.</li>
+<li>Hosted guest speakers from McMaster University’s Start Coding, who introduced campers to the ELM language.</li>
+<li>Sponsored by the Art of Problem Solving, the premier institute for mathematical education.</li>
           </ul>
         </div>
       </div>
