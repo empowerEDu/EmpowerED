@@ -11,7 +11,7 @@ const UpcomingDates = () => {
   <ul>   
 
     <li>
-       <a>
+       <a href='https://markham.bibliocommons.com/events/6712686893c6a32800d6e541' target='_blank'>
       <div className="event-left-content">
         <div className="title-event">
            <h2>MPL Coding Workshop</h2>
