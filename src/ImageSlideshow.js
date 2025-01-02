@@ -10,7 +10,7 @@ const images = [Workshop1, Workshop2, Workshop3, Workshop4, Workshop5, Workshop6
 const ImageSlideshow = () => {
   return (
     <div className="slideshow-container">
-      <div className="slideshow">
+      <div className="slideshow container-fluid">
         {images.concat(images).map((image, index) => (
           <img
             key={index}

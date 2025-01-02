@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Change Switch to Routes
 import NavBar from './NavBar';
 import Footer from './Footer';
 import Home from './Home';
@@ -15,20 +15,17 @@ function App() {
       <div className="App">
         <NavBar />
         <div className="content">
-          <Switch>
-          <Route exact path="/">
-           <Home></Home>
-           <NewsletterSignUp/>
-           </Route>
-           <Route path="/newsletters">
-            <Newsletter/>
-            <NewsletterSignUp/>
-           </Route>
-            <Route path="/contact" component={Contact} />
-            <Route path="/support-us" component={SupportUs} />
-            <Route path="/articles/:id" component={ArticleDetails} />
-            <Route path="*" component={Home} />
-          </Switch>
+          <Routes> {/* Use Routes instead of Switch */}
+            <Route path="/" element={<Home />} /> {/* Use element instead of component */}
+            <Route path="/" element={<NewsletterSignUp />} />
+            <Route path="/newsletters" element={<Newsletter />} />
+            <Route path="/newsletters" element={<NewsletterSignUp />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/support-us" element={<SupportUs />} />
+            <Route path="/articles/:id" element={<ArticleDetails />} />
+            <Route path="*" element={    <Home style={{ width: '100%' }} />
+} /> {/* Catch-all route */}
+          </Routes>
         </div>
         <Footer />
       </div>
