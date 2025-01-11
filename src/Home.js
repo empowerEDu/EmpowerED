@@ -7,6 +7,8 @@ import ImageSlideshow from './ImageSlideshow';
 import MacCodingLogo from './images/macstartcoding.png';
 import { Link } from 'react-router-dom'
 import Statistics from "./Statistics";
+import NewsletterSignUp from "./NewsletterSignUp";
+
 
 const Home = () => {
   return (  
@@ -37,6 +39,7 @@ const Home = () => {
         <Link to="/support-us" className="nav-link">
           <button type="submit" className="btn btn-primary">Support Us!</button>
         </Link>
+        <NewsletterSignUp />
       </div>
     </div>
   );

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Ch
 import NavBar from './NavBar';
 import Footer from './Footer';
 import Home from './Home';
-import NewsletterSignUp from "./NewsletterSignUp";
 import Newsletter from './Newsletter';
 import Contact from './Contact';
 import ArticleDetails from './ArticleDetails';
@@ -17,9 +16,7 @@ function App() {
         <div className="content">
           <Routes> {/* Use Routes instead of Switch */}
             <Route path="/" element={<Home />} /> {/* Use element instead of component */}
-            <Route path="/" element={<NewsletterSignUp />} />
             <Route path="/newsletters" element={<Newsletter />} />
-            <Route path="/newsletters" element={<NewsletterSignUp />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/support-us" element={<SupportUs />} />
             <Route path="/articles/:id" element={<ArticleDetails />} />

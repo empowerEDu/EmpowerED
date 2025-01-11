@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import NewsletterList from "./NewsletterList";
+import NewsletterSignUp from "./NewsletterSignUp";
 
 const Newsletter = () => {
   const [articles, setArticles] = useState(null);
@@ -28,6 +29,7 @@ const Newsletter = () => {
     <div className="articles">
       {error && <div>{error}</div>}
       {articles ? <NewsletterList articles={articles} title="Newsletters"/> : <div>Loading...</div>}
+      <NewsletterSignUp/>
     </div>
   );
 }
