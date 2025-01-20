@@ -24,6 +24,20 @@ const UpcomingDates = () => {
       </div>
        </a>
     </li>
+    <li>
+       <a>
+      <div className="event-left-content">
+        <div className="title-event">
+           <h2>Waterloo WiE Engineering Workshop</h2>
+          <div className="event-date"> May 10, 2025</div>
+        </div>
+      </div>
+      <div className="event-icon"> 
+        <div className="month">May </div> 
+        <div className="date">10</div> 
+      </div>
+       </a>
+    </li>
         
   </ul>
 </div>
