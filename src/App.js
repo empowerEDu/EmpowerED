@@ -7,6 +7,7 @@ import Newsletter from './Newsletter';
 import Contact from './Contact';
 import ArticleDetails from './ArticleDetails';
 import SupportUs from './SupportUs';
+import Chapters from './Chapters'; // Import Chapters component
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/support-us" element={<SupportUs />} />
             <Route path="/articles/:id" element={<ArticleDetails />} />
+            <Route path="/chapters" element={<Chapters />} />
             <Route path="*" element={    <Home style={{ width: '100%' }} />
 } /> {/* Catch-all route */}
           </Routes>

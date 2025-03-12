@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="list">
         <a href="/"> <img loading="lazy" src={logo} alt="EmpowerED Logo" height="50px" /> </a>
-        <p>&copy; Copyright 2024 EmpowerED</p>
+        <p>&copy; Copyright 2025 EmpowerED</p>
       </div>
     </footer>
   );
