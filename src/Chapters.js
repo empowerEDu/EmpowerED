@@ -1,9 +1,6 @@
 import ImageSlideshow from "./ImageSlideshow";
 import LumieExcited from "./images/LumieExcited.png";
-import brampton from "./images/brampton.jpeg";
-import missisauga from "./images/missisauga.png";
-import hamilton from "./images/hamilton.jpg";
-
+import ChapterLocation from "./ChapterLocation";
 const Chapters = () => {
 
   return (
@@ -21,17 +18,8 @@ const Chapters = () => {
                 </div>
             </div>
         </div>
-        <ImageSlideshow/>
-        <div className="my-4 sponsors text-center py-4">
-            <h2 className="mb-4">Our Chapter Locations</h2>
-            <div className="d-flex justify-content-center flex-wrap">
-                <img src={missisauga} alt="Missisauga" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
-                <img src={LumieExcited} alt="Lumie Excited" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
-                <img src={hamilton} alt="Hamilton" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
-                <img src={LumieExcited} alt="Lumie Excited" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
-                <img src={brampton} alt="Brampton" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
-            </div>
-        </div>
+        <ImageSlideshow />
+        <ChapterLocation />
     </>
   );
 }

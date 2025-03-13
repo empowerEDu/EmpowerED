@@ -466,3 +466,10 @@ article {
   margin: 3%;
   box-shadow: #010b43;
 }
+
+/* Chapters Card Section */
+.chapter-card{
+  background-color: white;
+  border: medium solid black;
+  border-radius: 23px;
+}
