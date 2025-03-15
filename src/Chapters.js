@@ -1,6 +1,7 @@
 import ImageSlideshow from "./ImageSlideshow";
 import LumieExcited from "./images/LumieExcited.png";
 import ChapterLocation from "./ChapterLocation";
+import LumieComputer from "./images/LumieComputer.png";
 const Chapters = () => {
 
   return (
@@ -13,7 +14,7 @@ const Chapters = () => {
                         <h3 className="mb-3">An EmpowerED Chapter is a club or a community organization that operates under the guidance of the EmpowerED organization</h3>
                     </div>
                     <div className="right col-12 col-md-6 text-center text-md-left">
-                        <img src={LumieExcited} alt="Lumie Excited" className="img-fluid" style={{ maxHeight: '200px' }} />
+                        <img src={LumieComputer} alt="Lumie Computer" className="img-fluid" style={{ maxHeight: '285px' }} />
                     </div>
                 </div>
             </div>
