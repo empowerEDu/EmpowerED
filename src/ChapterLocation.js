@@ -9,21 +9,29 @@ const ChapterLocation = () => {
             <div className="mb-5">
                 <h2>Our Chapter Locations</h2>
             </div>
-            <div className="d-flex justify-content-center align-items-center flex-wrap" style={{gap: '20px'}}>
-                <div className="p-4 chapter-card">
-                    <h3>Missisauga</h3>
-                    <img src={missisauga} alt="Missisauga" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
-                </div>
-                <img src={LumieExcited} alt="Lumie Excited" className="img-fluid mx-3" style={{ maxHeight: '170px' }} />
-                <div className="p-4 chapter-card">
-                    <h3>Hamilton</h3>
-                    <img src={hamilton} alt="Hamilton" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
-                </div>
-                <img src={LumieExcited} alt="Lumie Excited" className="img-fluid mx-3" style={{ maxHeight: '170px' }} />
-                <div className="p-4 chapter-card">
-                    <h3>Brampton</h3>
-                    <img src={brampton} alt="Brampton" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
-                </div>
+            <div className="d-flex justify-content-center align-items-center flex-wrap" style={{gap: '100px'}}>
+                <a href="https://www.instagram.com/empowered_mississauga/" target="_blank" rel="noopener noreferrer" className="text-decoration-none">
+                    <div className="p-4 chapter-card">
+                        <h3>Missisauga Chapter</h3>
+                        <img src={LumieExcited} alt="Lumie Excited" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/empowered_brampton/" target="_blank" rel="noopener noreferrer" className="text-decoration-none">
+                    <div className="p-4 chapter-card">
+                        <h3>Brampton Chapter</h3>
+                        <img src={LumieExcited} alt="Lumie Excited" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/empowered_hamilton/" target="_blank" rel="noopener noreferrer" className="text-decoration-none">
+                    <div className="p-4 chapter-card">
+                        <h3>Hamilton Chapter</h3>
+                        <img src={LumieExcited} alt="Lumie Excited" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
+                    </div>
+                </a>
+                
+                
             </div>
         </div>
     )

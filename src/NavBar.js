@@ -40,11 +40,11 @@ const NavBar = () => {
             <Link to="/support-us" className="nav-link">
               Support Us
             </Link>
-            <Link to="/contact" className="nav-link">
-              Contact
-            </Link>
             <Link to="/chapters" className="nav-link">
               Chapters
+            </Link>
+            <Link to="/contact" className="nav-link">
+              Contact
             </Link>
           </div>
         </div>
