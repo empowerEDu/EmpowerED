@@ -11,16 +11,33 @@ const UpcomingDates = () => {
   <ul>   
     
     <li>
-      <div className="event-left-content">
-        <div className="title-event">
-           <h2>Stay Tuned!</h2>
-          <div className="event-date"></div>
+      <a href="https://markham.bibliocommons.com/events/688a91867845026da0ebc703" target="_blank" rel="noopener noreferrer">
+        <div className="event-left-content">
+          <div className="title-event">
+            <h2>Math Escape Room</h2>
+            <div className="event-date">Oct 12, 2025</div>
+          </div>
         </div>
-      </div>
-      {/* <div className="event-icon"> 
-        <div className="month"></div> 
-        <div className="date">10</div> 
-      </div> */}
+        <div className="event-icon"> 
+          <div className="month">Oct</div> 
+          <div className="date">12</div> 
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://markham.bibliocommons.com/events/688a98a4ff905b2a674b3cd1" target="_blank" rel="noopener noreferrer">
+        <div className="event-left-content">
+          <div className="title-event">
+            <h2>Game Development Workshop</h2>
+            <div className="event-date">Oct 25, 2025</div>
+          </div>
+        </div>
+        <div className="event-icon"> 
+          <div className="month">Oct</div> 
+          <div className="date">25</div> 
+        </div>
+      </a>
     </li>
         
   </ul>
