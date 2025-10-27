@@ -8,23 +8,7 @@ const UpcomingDates = () => {
   </div>
 </div>
 <div className="events-body">
-  <ul>   
-    
-    <li>
-      <a href="https://markham.bibliocommons.com/events/688a91867845026da0ebc703" target="_blank" rel="noopener noreferrer">
-        <div className="event-left-content">
-          <div className="title-event">
-            <h2>Math Escape Room</h2>
-            <div className="event-date">Oct 12, 2025</div>
-          </div>
-        </div>
-        <div className="event-icon"> 
-          <div className="month">Oct</div> 
-          <div className="date">12</div> 
-        </div>
-      </a>
-    </li>
-
+  <ul> 
     <li>
       <a href="https://markham.bibliocommons.com/events/688a98a4ff905b2a674b3cd1" target="_blank" rel="noopener noreferrer">
         <div className="event-left-content">

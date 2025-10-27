@@ -57,6 +57,14 @@ const SupportUs = () => {
 <li>Hosted guest speakers from McMaster University’s Start Coding, who introduced campers to the ELM language.</li>
 <li>Sponsored by the Art of Problem Solving, the premier institute for mathematical education.</li>
           </ul>
+                    <br></br>
+          <h5>EmpowerED Math Escape Room – For Middle Schoolers</h5>
+          <ul>
+            <li>Hosted by EmpowerED in collaboration with Markham Public Library, the event brought together 25 enthusiastic participants at Aaniin Community Centre on Sunday, October 12th.</li>
+            <li>Children solved creative puzzles and unlocked codes to escape a story-based math adventure designed around teamwork and problem-solving.</li>
+            <li>Combinational math games added an extra layer of fun, helping students think critically and apply mathematical concepts in engaging ways.</li>
+            <li>Participants built friendships and confidence, showcasing how EmpowerED and Markham Public Library make learning math exciting beyond the classroom.</li>
+          </ul>
         </div>
       </div>
       <div className="section row my-5">
