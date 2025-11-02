@@ -31,7 +31,7 @@ const SupportUs = () => {
         </div>
         <div className="text-right col-md-6 white">
           <h2>Success Stories</h2><br></br>
-          <h5>EmpowerHerIn Math Competition - For Middle School Girls</h5>
+          <h5>EmpowerHerIn Math Competition – For Middle School Girls</h5>
           <ul>
             <li>An online math competition for girls in grades 6-8 in collaboration with Count Her In (another youth-led organization in Markham).</li>
 <li>60+ registrants from all across the Greater Toronto Area (GTA), showcasing the broad appeal and impact of our programs.</li>
@@ -41,7 +41,7 @@ const SupportUs = () => {
 
           </ul>
 <br></br>
-          <h5>Robotics Workshop @ Unionville Library - Ages Preschool-12</h5>
+          <h5>Robotics Workshop @ Unionville Library – Ages Preschool-12</h5>
           <ul>
             <li>In collaboration with Markham Public Library at Unionville Branch, bringing robotics education to a wider audience.</li>
 <li>Children explored robotics through engaging activities like completing an obstacle course with Sphero Indis and a dance challenge with Ozobots</li>
@@ -49,7 +49,7 @@ const SupportUs = () => {
 <li>The workshop was both fun and informative, sparking curiosity and excitement about robotics and engineering.</li>
           </ul>
           <br></br>
-          <h5>EmpowerED Web Development Summer Camp - For Middle Schoolers</h5>
+          <h5>EmpowerED Web Development Summer Camp – For Middle Schoolers</h5>
           <ul>
             <li>An online week-long summer camp for Grades 6-8, introducing the rudiments of HTML and CSS.</li>
 <li>20+ registrants from all across the Greater Toronto Area (GTA), showcasing the broad appeal and impact of our programs.</li>
@@ -64,6 +64,14 @@ const SupportUs = () => {
             <li>Children solved creative puzzles and unlocked codes to escape a story-based math adventure designed around teamwork and problem-solving.</li>
             <li>Combinational math games added an extra layer of fun, helping students think critically and apply mathematical concepts in engaging ways.</li>
             <li>Participants built friendships and confidence, showcasing how EmpowerED and Markham Public Library make learning math exciting beyond the classroom.</li>
+          </ul>
+                  <br></br>
+          <h5>EmpowerED Game Development Workshop – For Elementary & Middle Schoolers</h5>
+          <ul>
+            <li>Hosted by EmpowerED in collaboration with Markham Public Library, the Code to Create: Game Development Workshop welcomed 6 young participants to Aaniin Community Centre on Saturday, October 25th.</li>
+            <li>Children explored the fundamentals of coding by building interactive games using Scratch IO, learning how to create, test, and debug their own projects.</li>
+            <li>With guidance from EmpowerED volunteers, participants customized their games with unique backdrops, characters, and designs, gaining hands-on experience in game creation and problem-solving.</li>
+            <li>The workshop sparked creativity and confidence, making coding fun, accessible, and inspiring for youth aged 8–14.</li>
           </ul>
         </div>
       </div>
