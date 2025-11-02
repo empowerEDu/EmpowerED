@@ -68,7 +68,7 @@ const SupportUs = () => {
                   <br></br>
           <h5>EmpowerED Game Development Workshop – For Elementary & Middle Schoolers</h5>
           <ul>
-            <li>Hosted by EmpowerED in collaboration with Markham Public Library, the Code to Create: Game Development Workshop welcomed 6 young participants to Aaniin Community Centre on Saturday, October 25th.</li>
+            <li>Hosted by EmpowerED, the Code to Create: Game Development Workshop welcomed 6 young participants to Aaniin Community Centre on Saturday, October 25th.</li>
             <li>Children explored the fundamentals of coding by building interactive games using Scratch IO, learning how to create, test, and debug their own projects.</li>
             <li>With guidance from EmpowerED volunteers, participants customized their games with unique backdrops, characters, and designs, gaining hands-on experience in game creation and problem-solving.</li>
             <li>The workshop sparked creativity and confidence, making coding fun, accessible, and inspiring for youth aged 8–14.</li>
