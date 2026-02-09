@@ -73,6 +73,14 @@ const SupportUs = () => {
             <li>With guidance from EmpowerED volunteers, participants customized their games with unique backdrops, characters, and designs, gaining hands-on experience in game creation and problem-solving.</li>
             <li>The workshop sparked creativity and confidence, making coding fun, accessible, and inspiring for youth aged 8–14.</li>
           </ul>
+                  <br></br>
+          <h5>EmpowerED Unbreakable Build Challenge – For Elementary & Middle Schoolers</h5>
+          <ul>
+            <li>Hosted by EmpowerED the Unbreakable Build Challenge welcomed 16 participants to Aaniin Community Centre on Thursday, January 30th.</li>
+            <li>Children were divided into five teams and challenged to design and build the strongest possible towers and bridges using everyday recyclables and household materials.</li>
+            <li>Through hands-on engineering tasks, participants explored concepts such as structural stability, balance, and force while testing and improving their designs.</li>
+            <li>The workshop encouraged creativity, teamwork, and problem-solving, giving youth aged 7–14 an exciting introduction to engineering in a fun and accessible way.</li>
+          </ul>
         </div>
       </div>
       <div className="section row my-5">
