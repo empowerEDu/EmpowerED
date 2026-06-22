@@ -473,3 +473,13 @@ article {
   border: medium solid black;
   border-radius: 23px;
 }
+
+/* Hiring Banner */
+.hiring-container {
+  text-align: center;
+}
+
+.hiring-banner {
+  width: 100%;
+  animation: slide 15s linear infinite;
+}
