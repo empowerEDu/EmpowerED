@@ -13,10 +13,6 @@ import NewsletterSignUp from "./NewsletterSignUp";
 const Home = () => {
   return (  
     <div className="homepage container-fluid">
-      <div className="text-center my-2 hiring-banner">
-        <h2>We are hiring!</h2>
-        <p>Join EmpowerED and help us grow our STEM programs.</p>
-      </div>
       <div className="container">
       <div className="introduction row align-items-center mb-5">
         <div className="left col-12 col-md-6 text-center text-md-left mb-4 mb-md-0">
