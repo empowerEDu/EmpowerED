@@ -15,6 +15,12 @@ const Home = () => {
     <div className="homepage container-fluid">
       <div className="container">
       <div className="introduction row align-items-center mb-5">
+        <div className="hiring-announcement col-12">
+          <span aria-hidden="true">📣</span> We are <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScxbpMeGB2UxVfZ8nj8acpr96TmrpJTC0dxmIOQTD8TinUyKA/viewform">hiring</a>!
+          <p className="hiring-description">
+            A description of the roles can be found <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/18IGolUyNt9cRtOQ_6YnayqX6taSOV58vXru6Cgky8ro/edit?tab=t.0#heading=h.fpjtb183cwps">here</a>.
+          </p>
+        </div>
         <div className="left col-12 col-md-6 text-center text-md-left mb-4 mb-md-0">
           <h1 className="mb-3">We are EmpowerED</h1>
           <h3 className="mb-3">We are a youth-led non-for-profit organization based in York Region, that aims to excite students of all ages about computer science and STEM!</h3>
