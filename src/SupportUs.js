@@ -7,6 +7,7 @@ import OntarioFluid from "./images/ontariofluidpartner.png";
 import Workshop1 from "./images/workshop1.jpg"; 
 import Workshop2 from "./images/workshop2.jpg";
 import MacCodingLogo from './images/macstartcoding.png';
+import WIE from "./images/wie.png";
 
 const SupportUs = () => {
     //i didnt know what to put for the text so i just put a bunch of dashes
@@ -27,7 +28,8 @@ const SupportUs = () => {
           <img src={MPLLogo} alt="Markham Public Library" height="100px" className="image-mpl img-fluid mb-3" /><br></br>
           <img src={AoPSLogo} alt="AoPS Logo" height="100px" className="image-aops img-fluid mb-3" /><br></br>
           <img src={OntarioFluid} alt="Ontario Fluid" height="100px" className="image-ontario-fluid img-fluid mb-3" /><br></br>
-          <img src={MacCodingLogo} alt="McMaster Start Coding" height="100px" className="img-fluid mb-3" />
+          <img src={MacCodingLogo} alt="McMaster Start Coding" height="100px" className="img-fluid mb-3" /><br></br>
+          <img src={WIE} alt="Waterloo Women In Engineering" height="100px" className="img-fluid mb-3" />
         </div>
         <div className="text-right col-md-6 white">
           <h2>Success Stories</h2><br></br>
