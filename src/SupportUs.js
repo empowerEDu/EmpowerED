@@ -25,64 +25,63 @@ const SupportUs = () => {
       </div>
       <div className="row my-5 section white">
         <div className="col-md-6 justify-center">
-          <img src={MPLLogo} alt="Markham Public Library" height="100px" className="image-mpl img-fluid mb-3" /><br></br>
-          <img src={AoPSLogo} alt="AoPS Logo" height="100px" className="image-aops img-fluid mb-3" /><br></br>
-          <img src={OntarioFluid} alt="Ontario Fluid" height="100px" className="image-ontario-fluid img-fluid mb-3" /><br></br>
-          <img src={MacCodingLogo} alt="McMaster Start Coding" height="100px" className="img-fluid mb-3" /><br></br>
-          <img src={WIE} alt="Waterloo Women In Engineering" height="100px" className="img-fluid mb-3" />
+          <img src={MPLLogo} alt="Markham Public Library" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} /><br></br>
+          <img src={AoPSLogo} alt="AoPS Logo" className="img-fluid mx-3 mb-3" style={{ maxHeight: '130px' }} /><br></br>
+          <img src={OntarioFluid} alt="Ontario Fluid" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} /><br></br>
+          <img src={MacCodingLogo} alt="McMaster Start Coding" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} /><br></br>
+          <img src={WIE} alt="Waterloo Women In Engineering" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
         </div>
         <div className="text-right col-md-6 white">
           <h2>Success Stories</h2><br></br>
-          <h5>EmpowerHerIn Math Competition – For Middle School Girls</h5>
-          <ul>
-            <li>An online math competition for girls in grades 6-8 in collaboration with Count Her In (another youth-led organization in Markham).</li>
-<li>60+ registrants from all across the Greater Toronto Area (GTA), showcasing the broad appeal and impact of our programs.</li>
-<li>4 female guest speakers provided insights into high school life and how to get involved in STEM, offering valuable mentorship and inspiration.</li>
-<li>The competition provided a platform for young girls to take initiative in the STEM fields and gain confidence in their abilities.</li>
-<li>Sponsored by Ontario Fluid Ltd., highlighting the importance of community support in making such events possible.</li>
-
-          </ul>
-<br></br>
-          <h5>Robotics Workshop @ Unionville Library – Ages Preschool-12</h5>
-          <ul>
-            <li>In collaboration with Markham Public Library at Unionville Branch, bringing robotics education to a wider audience.</li>
-<li>Children explored robotics through engaging activities like completing an obstacle course with Sphero Indis and a dance challenge with Ozobots</li>
-<li>75+ enthusiastic participants, demonstrating the high level of interest and engagement in our hands-on learning experiences.</li>
-<li>The workshop was both fun and informative, sparking curiosity and excitement about robotics and engineering.</li>
-          </ul>
-          <br></br>
-          <h5>EmpowerED Web Development Summer Camp – For Middle Schoolers</h5>
-          <ul>
-            <li>An online week-long summer camp for Grades 6-8, introducing the rudiments of HTML and CSS.</li>
-<li>20+ registrants from all across the Greater Toronto Area (GTA), showcasing the broad appeal and impact of our programs.</li>
-<li>Led to a 150% increase in newsletter registrants.</li>
-<li>Hosted guest speakers from McMaster University’s Start Coding, who introduced campers to the ELM language.</li>
-<li>Sponsored by the Art of Problem Solving, the premier institute for mathematical education.</li>
-          </ul>
-                    <br></br>
-          <h5>EmpowerED Math Escape Room – For Middle Schoolers</h5>
-          <ul>
-            <li>Hosted by EmpowerED in collaboration with Markham Public Library, the event brought together 25 enthusiastic participants at Aaniin Community Centre on Sunday, October 12th.</li>
-            <li>Children solved creative puzzles and unlocked codes to escape a story-based math adventure designed around teamwork and problem-solving.</li>
-            <li>Combinational math games added an extra layer of fun, helping students think critically and apply mathematical concepts in engaging ways.</li>
-            <li>Participants built friendships and confidence, showcasing how EmpowerED and Markham Public Library make learning math exciting beyond the classroom.</li>
-          </ul>
-                  <br></br>
-          <h5>EmpowerED Game Development Workshop – For Elementary & Middle Schoolers</h5>
-          <ul>
-            <li>Hosted by EmpowerED, the Code to Create: Game Development Workshop welcomed 6 young participants to Aaniin Community Centre on Saturday, October 25th.</li>
-            <li>Children explored the fundamentals of coding by building interactive games using Scratch IO, learning how to create, test, and debug their own projects.</li>
-            <li>With guidance from EmpowerED volunteers, participants customized their games with unique backdrops, characters, and designs, gaining hands-on experience in game creation and problem-solving.</li>
-            <li>The workshop sparked creativity and confidence, making coding fun, accessible, and inspiring for youth aged 8–14.</li>
-          </ul>
-                  <br></br>
           <h5>EmpowerED Unbreakable Build Challenge – For Elementary & Middle Schoolers</h5>
-          <ul>
-            <li>Hosted by EmpowerED the Unbreakable Build Challenge welcomed 16 participants to Aaniin Community Centre on Thursday, January 30th.</li>
-            <li>Children were divided into five teams and challenged to design and build the strongest possible towers and bridges using everyday recyclables and household materials.</li>
-            <li>Through hands-on engineering tasks, participants explored concepts such as structural stability, balance, and force while testing and improving their designs.</li>
-            <li>The workshop encouraged creativity, teamwork, and problem-solving, giving youth aged 7–14 an exciting introduction to engineering in a fun and accessible way.</li>
-          </ul>
+            <ul>
+              <li>Hosted by EmpowerED the Unbreakable Build Challenge welcomed 16 participants to Aaniin Community Centre on Thursday, January 30th.</li>
+              <li>Children were divided into five teams and challenged to design and build the strongest possible towers and bridges using everyday recyclables and household materials.</li>
+              <li>Through hands-on engineering tasks, participants explored concepts such as structural stability, balance, and force while testing and improving their designs.</li>
+              <li>The workshop encouraged creativity, teamwork, and problem-solving, giving youth aged 7–14 an exciting introduction to engineering in a fun and accessible way.</li>
+            </ul>
+            <br></br>
+          <h5>EmpowerED Game Development Workshop – For Elementary & Middle Schoolers</h5>
+            <ul>
+              <li>Hosted by EmpowerED, the Code to Create: Game Development Workshop welcomed 6 young participants to Aaniin Community Centre on Saturday, October 25th.</li>
+              <li>Children explored the fundamentals of coding by building interactive games using Scratch IO, learning how to create, test, and debug their own projects.</li>
+              <li>With guidance from EmpowerED volunteers, participants customized their games with unique backdrops, characters, and designs, gaining hands-on experience in game creation and problem-solving.</li>
+              <li>The workshop sparked creativity and confidence, making coding fun, accessible, and inspiring for youth aged 8–14.</li>
+            </ul>
+            <br></br>
+          <h5>EmpowerED Math Escape Room – For Middle Schoolers</h5>
+            <ul>
+              <li>Hosted by EmpowerED in collaboration with Markham Public Library, the event brought together 25 enthusiastic participants at Aaniin Community Centre on Sunday, October 12th.</li>
+              <li>Children solved creative puzzles and unlocked codes to escape a story-based math adventure designed around teamwork and problem-solving.</li>
+              <li>Combinational math games added an extra layer of fun, helping students think critically and apply mathematical concepts in engaging ways.</li>
+              <li>Participants built friendships and confidence, showcasing how EmpowerED and Markham Public Library make learning math exciting beyond the classroom.</li>
+            </ul>
+            <br></br>
+          <h5>EmpowerED Web Development Summer Camp – For Middle Schoolers</h5>
+            <ul>
+              <li>An online week-long summer camp for Grades 6-8, introducing the rudiments of HTML and CSS.</li>
+              <li>20+ registrants from all across the Greater Toronto Area (GTA), showcasing the broad appeal and impact of our programs.</li>
+              <li>Led to a 150% increase in newsletter registrants.</li>
+              <li>Hosted guest speakers from McMaster University’s Start Coding, who introduced campers to the ELM language.</li>
+              <li>Sponsored by the Art of Problem Solving, the premier institute for mathematical education.</li>
+            </ul>
+            <br></br>
+          <h5>Robotics Workshop @ Unionville Library – Ages Preschool-12</h5>
+            <ul>
+              <li>In collaboration with Markham Public Library at Unionville Branch, bringing robotics education to a wider audience.</li>
+              <li>Children explored robotics through engaging activities like completing an obstacle course with Sphero Indis and a dance challenge with Ozobots</li>
+              <li>75+ enthusiastic participants, demonstrating the high level of interest and engagement in our hands-on learning experiences.</li>
+              <li>The workshop was both fun and informative, sparking curiosity and excitement about robotics and engineering.</li>
+            </ul>
+            <br></br>
+          <h5>EmpowerHerIn Math Competition – For Middle School Girls</h5>
+            <ul>
+              <li>An online math competition for girls in grades 6-8 in collaboration with Count Her In (another youth-led organization in Markham).</li>
+              <li>60+ registrants from all across the Greater Toronto Area (GTA), showcasing the broad appeal and impact of our programs.</li>
+              <li>4 female guest speakers provided insights into high school life and how to get involved in STEM, offering valuable mentorship and inspiration.</li>
+              <li>The competition provided a platform for young girls to take initiative in the STEM fields and gain confidence in their abilities.</li>
+              <li>Sponsored by Ontario Fluid Ltd., highlighting the importance of community support in making such events possible.</li>
+            </ul>
         </div>
       </div>
       <div className="section row my-5">
