@@ -72,8 +72,8 @@ const Statistics = () => {
       <div className="row text-center counters border-0">
         <div className="col-12 col-md-4 border-0">
           <div className="counter border-0">
-            <h1><span data-count="13">0</span></h1>
-            <h3>STEM Events held in 2024</h3>
+            <h1><span data-count="15">0</span>+</h1>
+            <h3>STEM Events held through 2026</h3>
           </div>
         </div>
 

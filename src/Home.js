@@ -5,6 +5,7 @@ import MPLLogo from "./images/MPL.png";
 import OntarioFluid from "./images/ontariofluidpartner.png";
 import ImageSlideshow from './ImageSlideshow';
 import MacCodingLogo from './images/macstartcoding.png';
+import WIE from './images/wie.png';
 import { Link } from 'react-router-dom'
 import Statistics from "./Statistics";
 import NewsletterSignUp from "./NewsletterSignUp";
@@ -41,6 +42,7 @@ const Home = () => {
           <img src={OntarioFluid} alt="Ontario Fluid" className="img-fluid mx-3 mb-3" style={{ maxHeight: '150px' }} />
           <img src={MPLLogo} alt="Markham Public Library" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
           <img src={MacCodingLogo} alt="McMaster Start Coding" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
+          <img src={WIE} alt="Waterloo Women In Engineering" className="img-fluid mx-3 mb-3" style={{ maxHeight: '170px' }} />
         </div>
         <Link to="/support-us" className="nav-link">
           <button type="submit" className="btn btn-primary">Support Us!</button>
